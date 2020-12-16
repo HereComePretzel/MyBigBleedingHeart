@@ -1,0 +1,300 @@
+.App {
+  text-align: center;
+}
+
+.piechart {
+  margin-right: 50rem;
+}
+
+
+
+.nav {
+  color: white;
+  background: #3C4F76;
+  width: 100%;
+  height: 50%;
+  display: inline-flex;
+  float: none;
+  vertical-align: top;
+  
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+textarea {
+  font-size: 50px;
+}
+
+.card-columns {
+  padding-left: 50px
+  
+}
+
+.recharts-default-legend {
+  color: white;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: 50px;
+  
+}
+
+svg.recharts-surface {
+  color: black;
+  margin-right: 10rem
+}
+
+.navbar-brand-me {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  margin: 0 5rem;
+} 
+
+
+#profilebtn {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  background-color: #FFC107;
+  color: black;
+  padding-top: .75rem;
+  margin-top: 1.75rem;
+  width: 10rem;
+  height: 3rem;
+  float: left;
+  font-size: large;
+  font-weight: bold;
+}
+
+.profile {
+  background-image: url("mbbh2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#logoutbtn {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  background-color: #FFC107;
+  color: black;
+  padding-top: 0.75rem;
+  margin-top: 1.75rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: large;
+  font-weight: bold;
+  float: right;
+}
+
+.profile {
+  color: white;
+  padding-left: 550px;
+  padding-right: 550px;
+  padding-top: 150px;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: x-large;
+
+}
+
+.updateprofilebutton {
+  background-color: #FFC107;
+  color: black;
+  font-size: 30px;
+  width: 150px;
+  height: 80px;
+
+}
+
+.login {
+  padding-top: 300px;
+  color: white;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: x-large;
+  font-weight: bold;
+  background-image: url("mbbh2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.logintagline {
+  color: rgba(255, 255, 255, 0.604);
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
+.signup {
+  padding-top: 300px;
+  color: white;
+  font-weight: bold;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: x-large;
+  background-image: url("mbbh2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#login {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.rbc-event {
+  height: 50px !important;
+}
+
+.rbc-event-content {
+  text-align: center;
+  padding-top: 8px;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: 24px;
+}
+
+.postcardstyle {
+  background-image: url("mbbh2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 0, 0, 0.194);
+  border-radius: 2px;
+  color: white;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.postcardstyleshow {
+  padding-top: 50px;
+  background-image: url("mbbh2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: rgba(255, 0, 0, 0.194);
+  border-radius: 2px;
+  color: white;
+  font-size: 30px;
+  height: 100%;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.postcardstyleedit {
+  padding-left: 650px;
+  padding-right: 650px;
+  padding-top: 150px;
+  background-image: url("mbbh2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 0, 0, 0.194);
+  border-radius: 2px;
+  color: white;
+  font-size: 50px;
+  height: 100%;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.postcardstyleshowtitle {
+  border-radius: 2px;
+  color: white;
+  font-size: 50px;
+  height: 100%;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.card-columns {
+  margin-left: 5rem
+}
+
+
+.rbc-event-label {
+  display: none !important;
+}
+
+body {
+  background-color: #383F51;
+  text-align: center;
+}
+
+.chart-wrapper {
+  border-radius: 5px;
+  margin-left: 0%;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: 20px
+
+}
+
+.modal-content {
+  color: white;
+  padding-top: 50px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  background: #3C4F76;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.form-label {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.addpostbutton {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: 60px;
+  background-color: #FFC107;
+  color: black;
+  width: 70rem;
+  height: 6rem;
+  margin: 0 auto;
+  border: 2.5px black solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold
+}
+
+.addpostbutton:hover {
+  background-color: #3C4F76
+}
+
+.happymemorybutton {
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-size: 30px;
+  background-color: #FFC107;
+  color: black;
+  width: 70rem;
+  height: 5rem;
+  margin: 0 auto;
+  border: 2.5px black solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle
+}
+
+.happymemorybutton:hover {
+  background-color: #3C4F76
+}
+
+.happymemoryclosebtn {
+  background-color: #FFC107;
+  color: black;
+}
+
+.graphs {
+  border: 2.5px black solid;
+  background-color: #3C4F76;
+}
+
+.calendar5 {
+  background: white;
+}
+
+.recharts-text recharts-cartesian-axis-tick-value {
+  color: white
+}
