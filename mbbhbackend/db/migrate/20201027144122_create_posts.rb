@@ -4,13 +4,13 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.integer :user_id
       t.string :date
       t.integer :number
-      t.text :good_thoughts
-      t.text :bad_thoughts
-      t.boolean :suicidal_thoughts, null: false, default: false
-      t.boolean :meds_taken, null: false, default: false
+      t.text :goodThoughts
+      t.text :badThoughts
+      t.boolean :suicidalThoughts, null: false, default: false
+      t.boolean :medsTaken, null: false, default: false
       t.text :goals
       t.text :notes
-      t.text :happy_memory
+      t.text :happyMemory
 
       t.timestamps
     end

@@ -19,13 +19,13 @@ ActiveRecord::Schema.define(version: 2020_10_27_144122) do
     t.integer "user_id"
     t.string "date"
     t.integer "number"
-    t.text "good_thoughts"
-    t.text "bad_thoughts"
-    t.boolean "suicidal_thoughts", default: false, null: false
-    t.boolean "meds_taken", default: false, null: false
+    t.text "goodThoughts"
+    t.text "badThoughts"
+    t.boolean "suicidalThoughts", default: false, null: false
+    t.boolean "medsTaken", default: false, null: false
     t.text "goals"
     t.text "notes"
-    t.text "happy_memory"
+    t.text "happyMemory"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

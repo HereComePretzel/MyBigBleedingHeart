@@ -22,7 +22,7 @@ end
 private 
 
 def post_params
-    params.require(:post).permit(:user_id, :date, :number, :good_thoughts, :bad_thoughts, :suicidal_thoughts, :meds_taken, :goals, :notes, :happy_memory)
+    params.require(:post).permit(:user_id, :date, :number, :goodThoughts, :badThoughts, :suicidalThoughts, :medsTaken, :goals, :notes, :happyMemory)
 end 
 
 
